@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operations | Swiss Mining Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="topbar container">
+    <a class="brand" href="index.html"><img class="brand-icon" src="image/kryzz.png" alt="Swiss Mining Co. logo"/>Swiss Mining Co.</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span class="hamburger"><span></span><span></span><span></span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a href="operations.html" class="active">Operations</a>
+      <a href="minerals.html">Minerals</a>
+      <a href="leadership.html">Leadership</a>
+      <a href="workforce.html">Workforce</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="page-main">
+
+  <!-- Banner -->
+  <div class="page-banner">
+    <img class="page-banner-img" src="image/heaveytruckinpit.jpeg" alt="Heavy mining machinery in operation"/>
+    <div class="page-banner-content">
+      <div class="container">
+        <p class="eyebrow">Operations</p>
+        <h1>From Survey to<br>Refined Gold</h1>
+        <p>Six active sites, 1,800 trained personnel, and a four-stage process built for precision and safety.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Process steps -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="eyebrow">The process</p>
+        <h2>Four stages. One <em>standard.</em></h2>
+        <p>Every tonne of ore follows the same disciplined path from mountain to market.</p>
+      </div>
+      <div class="steps-grid fade-in">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Survey & Geological Planning</h3>
+          <p>LiDAR drones and underground sensors map ore zones to centimetre precision before a single drill bit touches the rock. Deposit models are reviewed by independent geologists before any extraction plan is approved.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Drilling & Blasting</h3>
+          <p>Precision drill rigs bore 120mm holes to exact depths. Controlled blasting is executed under seismic monitoring to protect tunnels, surface structures, and nearby communities from ground movement.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Haulage & Ore Processing</h3>
+          <p>Electric haul trucks transport blasted rock to crushing facilities. Gravity separation, flotation, and cyanide leaching extract gold and copper concentrates to certified purity grades at our on-site refinery.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">04</div>
+          <h3>Secure Logistics & Delivery</h3>
+          <p>Refined product is assayed, hallmarked, and transported by armoured carrier to buyers and central banks. Full traceability documentation accompanies every shipment from mine to vault.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO BACKGROUND SECTION — Heavy Machinery -->
+  <section class="video-section" id="machinery">
+    <video class="video-bg" autoplay muted loop playsinline>
+      <source src="image/truckvid2.mp4" type="video/mp4"/>
+    </video>
+    <div class="video-overlay"></div>
+    <div class="container video-content fade-in">
+      <p class="eyebrow">Heavy machinery</p>
+      <h2 style="font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem;">Power that moves <em>mountains</em></h2>
+      <p style="color:var(--fog);max-width:560px;margin-bottom:2rem;font-size:1.05rem;line-height:1.7;">Our fleet of 60-tonne haul trucks, multi-boom drill rigs, and continuous miners represents CHF 380 million in precision engineering — maintained to manufacturer standards and operated by certified crews around the clock.</p>
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;">
+        <div style="background:rgba(20,26,22,0.85);border:1px solid var(--border);border-radius:4px;padding:1.25rem;">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="13" height="11" rx="1"/><path d="M14 9h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg></div>
+          <h4 style="color:var(--gold-2);margin-bottom:0.35rem;font-size:0.95rem;">Haul Trucks</h4>
+          <p style="color:var(--muted);font-size:0.8rem;">24× 60-tonne electric haul trucks. Zero direct emissions underground.</p>
+        </div>
+        <div style="background:rgba(20,26,22,0.85);border:1px solid var(--border);border-radius:4px;padding:1.25rem;">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a8 8 0 0 0 0-2l2-1.5-2-3.5-2.4 1a8 8 0 0 0-1.7-1l-.3-2.6h-4l-.3 2.6a8 8 0 0 0-1.7 1l-2.4-1-2 3.5L6.6 11a8 8 0 0 0 0 2l-2 1.5 2 3.5 2.4-1a8 8 0 0 0 1.7 1l.3 2.6h4l.3-2.6a8 8 0 0 0 1.7-1l2.4 1 2-3.5-2-1.5z"/></svg></div>
+          <h4 style="color:var(--gold-2);margin-bottom:0.35rem;font-size:0.95rem;">Drill Rigs</h4>
+          <p style="color:var(--muted);font-size:0.8rem;">18× multi-boom rigs. Automated feed control for 0.1mm bore precision.</p>
+        </div>
+        <div style="background:rgba(20,26,22,0.85);border:1px solid var(--border);border-radius:4px;padding:1.25rem;">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 3-3 3-3-3z"/><path d="M12 16l3 3-3 3-3-3z"/><path d="M2 12l3-3 3 3-3 3z"/><path d="M16 12l3-3 3 3-3 3z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h4 style="color:var(--gold-2);margin-bottom:0.35rem;font-size:0.95rem;">Crushers</h4>
+          <p style="color:var(--muted);font-size:0.8rem;">Jaw & cone crushers processing 4,200 tonnes of ore per day across all sites.</p>
+        </div>
+        <div style="background:rgba(20,26,22,0.85);border:1px solid var(--border);border-radius:4px;padding:1.25rem;">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="6" height="6" rx="1"/><line x1="5" y1="5" x2="9" y2="9"/><line x1="19" y1="5" x2="15" y2="9"/><line x1="5" y1="19" x2="9" y2="15"/><line x1="19" y1="19" x2="15" y2="15"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/></svg></div>
+          <h4 style="color:var(--gold-2);margin-bottom:0.35rem;font-size:0.95rem;">Survey Drones</h4>
+          <p style="color:var(--muted);font-size:0.8rem;">12× underground LiDAR drones mapping tunnels in real time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Machinery image gallery -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="eyebrow">On site</p>
+        <h2>Our machines at work</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;" class="fade-in">
+        <img src="image/ourequipment3.jpeg" alt="Excavator at mine site" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.6);border:1px solid var(--border);"/>
+        <img src="image/ourequipment2.jpeg" alt="Large drill rig operating underground" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.5);border:1px solid var(--border);"/>
+        <img src="image/minerwithgold.jpeg" alt="Open cut mining operations" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.4);border:1px solid var(--border);"/>
+        <img src="image/aerielview.jpeg" alt="Aerial view of mining operation" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.5);border:1px solid var(--border);"/>
+        <img src="image/loadingtruck1.jpeg" alt="Tunnel boring underground" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.4);border:1px solid var(--border);"/>
+        <img src="image/processingplant.jpeg" alt="Processing plant facility" style="width:90%;height:320px;object-fit:cover;border-radius:4px;filter:saturate(0.5);border:1px solid var(--border);"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety section -->
+  <section class="section section-alt" id="safety">
+    <div class="container">
+      <div class="split fade-in">
+        <div class="split-copy">
+          <p class="eyebrow">Safety first</p>
+          <h2>Zero-harm is not a <em>goal</em> — it's a requirement</h2>
+          <p>Every shift starts with a 15-minute safety briefing. Every worker carries a personal gas monitor and proximity alert. Our safety management system has recorded zero major incidents since 2019.</p>
+          <ul class="bullet-list">
+            <li>Zero lost-time major injuries since 2019</li>
+            <li>Real-time atmospheric monitoring across all tunnels</li>
+            <li>Emergency response teams on-site 24/7</li>
+            <li>Annual third-party safety audits (SGS Certified)</li>
+            <li>Monthly community safety disclosure reports</li>
+          </ul>
+          <a href="contact.html" class="btn btn-gold" style="margin-top:1.5rem;">Request Safety Report</a>
+        </div>
+        <div>
+          <img src="image/minersingear.jpeg" alt="Miners in full safety gear underground" class="split-img" style="width:65%;height:500px;object-fit:cover;border-radius:4px;filter:saturate(0.6);border:1px solid var(--border);"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img class="brand-icon" src="image/kryzz.png" alt="Swiss Mining Co. logo"/> Swiss Mining Co.</a>
+        <p style="margin-top:0.75rem;">Responsible gold and mineral extraction from the Swiss Alps since 1881.</p>
+      </div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="history.html">History</a></li><li><a href="leadership.html">Leadership</a></li><li><a href="workforce.html">Workforce</a></li></ul></div>
+      <div class="footer-col"><h4>Operations</h4><ul><li><a href="operations.html">Mining Process</a></li><li><a href="minerals.html">Minerals</a></li><li><a href="operations.html#safety">Safety</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:investor@swissmining.example">investor@swissmining.example</a></li><li><a href="tel:+41445552810">+41 (0)44 555 2810</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span class="year"></span> Swiss Mining Co. All rights reserved.</p>
+      <a href="contact.html">Contact us →</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
